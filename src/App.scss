@@ -589,3 +589,107 @@ footer {
     }
   }
 }
+
+@media (max-width: 1199px){
+  main{
+    section{
+      .title{
+        font-size: 2.4rem;
+      }
+
+      &#home{
+        align-items: flex-start;
+        gap: 3rem;
+        flex-direction: column-reverse;
+
+        .home-presentation{
+          width: 100%;
+        }
+
+        .avatar{
+          justify-content: center;
+          width: 100%;
+
+          img{
+            width: 60%;
+          }
+        }
+      }
+
+      &#about{
+        .text-img{
+          flex-direction: column;
+
+          .text{
+            width: 100%;
+          }
+
+          .real-me{
+            display: none;
+            width: 100%;
+
+            img{
+              width: 50%;
+            }
+          }
+        }
+      }
+
+      &#curriculum{
+        gap: 3rem;
+        .education-skills{
+          flex-direction: column;
+          widows: 100%;
+          gap: 3rem;
+
+          .skills{
+            width: 100%;
+          }
+        }
+      }
+
+      &#projects{
+        .card{
+          .img{
+            display: none;
+          }
+
+          .modal{
+            .modal-card{
+              .body{
+                .block{
+                  flex-direction: column;
+                  width: 100%;
+                  padding-inline: 1rem;
+
+                  .left, .right{
+                    width: 100% !important;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      &#contact{
+        .block{
+          flex-direction: column;
+          gap: 2rem;
+
+          .form{
+            width: 100%;
+
+            .form-fields{
+              flex-direction: column;
+            }
+          }
+
+          .info{
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

@@ -3,3 +3,10 @@
   padding-inline: 3rem;
   margin-inline: auto;
 }
+
+@media (max-width: 1199px){
+  .main-container {
+    padding-inline: 1rem;
+    margin: 0;
+  }
+}
